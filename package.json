@@ -4,8 +4,8 @@
   "description": "Shopify stock notification webhook server",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "node server-setup.js",
+    "dev": "node server-setup.js"
   },
   "engines": {
     "node": "18.x"
