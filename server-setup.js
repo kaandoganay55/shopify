@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 let stockRequests = [];
 
 // Email setup
-const transporter = nodemailer.createTransporter({
+const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
     user: process.env.EMAIL_USER,
